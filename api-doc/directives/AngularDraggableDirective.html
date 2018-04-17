@@ -1,0 +1,2331 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>angular2-draggable-github documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+                 <link rel="stylesheet" href="../styles/stripe.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">angular2-draggable-github documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">angular2-draggable-github documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AngularDraggableModule.html" >AngularDraggableModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-directives-links"
+                            >
+                            <span class="fa fa-code"></span>
+                            <span>Directives</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-directives-links"
+                            >
+                                <li class="link">
+                                    <a href="../directives/AngularDraggableDirective.html"  data-type="entity-link" class="active" >AngularDraggableDirective</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/Position.html" >Position</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/IPosition.html" >IPosition</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">angular2-draggable-github documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AngularDraggableModule.html" >AngularDraggableModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#directives-links"
+                   >
+                                   <span class="fa fa-code"></span>
+                                   <span>Directives</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="directives-links"
+                   >
+                                       <li class="link">
+                                           <a href="../directives/AngularDraggableDirective.html"  data-type="entity-link" class="active" >AngularDraggableDirective</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/Position.html" >Position</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/IPosition.html" >IPosition</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content directive">
+                   <div class="content-data">
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Directives</li>
+  <li>AngularDraggableDirective</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>lib/src/directive/angular-draggable.directive.ts</code>
+        </p>
+
+
+            <p class="comment">
+                <h3>Implements</h3>
+            </p>
+            <p class="comment">
+                        <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                        <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
+            </p>
+
+
+        <section>
+            <h3>Metadata</h3>
+            <table class="table table-sm table-hover">
+                <tbody>
+
+                    <tr>
+                        <td class="col-md-3">selector</td>
+                        <td class="col-md-9"><code>[ngDraggable]</code></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+            <section>
+                <h3 id="index">Index</h3>
+                <table class="table table-sm table-bordered index-table">
+                    <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Properties</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#_zIndex">_zIndex</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#allowDrag">allowDrag</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#moving">moving</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#needTransform">needTransform</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#oldPosition">oldPosition</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#oldTrans">oldTrans</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#oldZIndex">oldZIndex</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#orignal">orignal</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#tempTrans">tempTrans</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Methods</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#boundsCheck">boundsCheck</a>
+                                    </li>
+                                    <li>
+                                        <a href="#checkHandleTarget">checkHandleTarget</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#moveTo">moveTo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ngOnChanges">ngOnChanges</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ngOnInit">ngOnInit</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#pickUp">pickUp</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#putBack">putBack</a>
+                                    </li>
+                                    <li>
+                                        <a href="#resetPosition">resetPosition</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#transform">transform</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Inputs</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#bounds">bounds</a>
+                                    </li>
+                                    <li>
+                                        <a href="#handle">handle</a>
+                                    </li>
+                                    <li>
+                                        <a href="#inBounds">inBounds</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ngDraggable">ngDraggable</a>
+                                    </li>
+                                    <li>
+                                        <a href="#outOfBounds">outOfBounds</a>
+                                    </li>
+                                    <li>
+                                        <a href="#position">position</a>
+                                    </li>
+                                    <li>
+                                        <a href="#preventDefaultEvent">preventDefaultEvent</a>
+                                    </li>
+                                    <li>
+                                        <a href="#scale">scale</a>
+                                    </li>
+                                    <li>
+                                        <a href="#trackPosition">trackPosition</a>
+                                    </li>
+                                    <li>
+                                        <a href="#zIndex">zIndex</a>
+                                    </li>
+                                    <li>
+                                        <a href="#zIndexMoving">zIndexMoving</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Outputs</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#edge">edge</a>
+                                    </li>
+                                    <li>
+                                        <a href="#endOffset">endOffset</a>
+                                    </li>
+                                    <li>
+                                        <a href="#movingOffset">movingOffset</a>
+                                    </li>
+                                    <li>
+                                        <a href="#started">started</a>
+                                    </li>
+                                    <li>
+                                        <a href="#stopped">stopped</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>HostListeners</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#document:mousemove">document:mousemove</a>
+                                    </li>
+                                    <li>
+                                        <a href="#document:mouseup">document:mouseup</a>
+                                    </li>
+                                    <li>
+                                        <a href="#mousedown">mousedown</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Accessors</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#zIndex">zIndex</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ngDraggable">ngDraggable</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 id="constructor">Constructor</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <code>constructor(el: <a href="https://angular.io/api/core/ElementRef" target="_blank">ElementRef</a>, renderer: <a href="https://angular.io/api/core/Renderer2" target="_blank">Renderer2</a>)</code>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="123" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:123</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div>
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>el</td>
+                                                              <td>
+                                                                        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>renderer</td>
+                                                              <td>
+                                                                        <code><a href="https://angular.io/api/core/Renderer2" target="_blank" >Renderer2</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                <h3 id="inputs">Inputs</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="bounds"></a>
+                                    <code>bounds</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Set the bounds HTMLElement </p>
+</div>
+                                      <p>
+                                        <em>Type:</em>    <code>HTMLElement</code>
+
+                                      </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:71</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="handle"></a>
+                                    <code>handle</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Make the handle HTMLElement draggable </p>
+</div>
+                                      <p>
+                                        <em>Type:</em>    <code>HTMLElement</code>
+
+                                      </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:68</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="inBounds"></a>
+                                    <code>inBounds</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Whether to limit the element stay in the bounds </p>
+</div>
+                                    <p>
+                                      <em>Default value: </em><code>false</code>
+                                    </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="90" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:90</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="ngDraggable"></a>
+                                    <code>ngDraggable</code>
+                                </td>
+                                <td class="col-md-10">
+                                      <p>
+                                        <em>Type:</em>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                                      </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="111" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:111</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="outOfBounds"></a>
+                                    <code>outOfBounds</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>List of allowed out of bounds edges *</p>
+</div>
+                                    <p>
+                                      <em>Default value: </em><code>{
+    top: false,
+    right: false,
+    bottom: false,
+    left: false
+  }</code>
+                                    </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="74" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:74</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="position"></a>
+                                    <code>position</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Set initial position by offsets </p>
+</div>
+                                      <p>
+                                        <em>Type:</em>    <code><a href="../interfaces/IPosition.html" target="_self" >IPosition</a></code>
+
+                                      </p>
+                                    <p>
+                                      <em>Default value: </em><code>{ x: 0, y: 0 }</code>
+                                    </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="102" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:102</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="preventDefaultEvent"></a>
+                                    <code>preventDefaultEvent</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Whether to prevent default event </p>
+</div>
+                                    <p>
+                                      <em>Default value: </em><code>false</code>
+                                    </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="99" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:99</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="scale"></a>
+                                    <code>scale</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Input css scale transform of element so translations are correct </p>
+</div>
+                                    <p>
+                                      <em>Default value: </em><code>1</code>
+                                    </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="96" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:96</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="trackPosition"></a>
+                                    <code>trackPosition</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Whether the element should use it&#39;s previous drag position on a new drag event. </p>
+</div>
+                                    <p>
+                                      <em>Default value: </em><code>true</code>
+                                    </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="93" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:93</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="zIndex"></a>
+                                    <code>zIndex</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Set z-index when not dragging </p>
+</div>
+                                      <p>
+                                        <em>Type:</em>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                                      </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:85</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="zIndexMoving"></a>
+                                    <code>zIndexMoving</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Set z-index when dragging </p>
+</div>
+                                      <p>
+                                        <em>Type:</em>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                                      </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="82" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:82</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                <h3 id="outputs">Outputs</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="edge"></a>
+                                    <code>edge</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:65</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="endOffset"></a>
+                                    <code>endOffset</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Emit position offsets when put back </p>
+</div>
+                                    <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="108" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:108</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="movingOffset"></a>
+                                    <code>movingOffset</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <div><p>Emit position offsets when moving </p>
+</div>
+                                    <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="105" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:105</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="started"></a>
+                                    <code>started</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:63</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="stopped"></a>
+                                    <code>stopped</code>
+                                </td>
+                                <td class="col-md-10">
+                                    <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:64</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+
+            <section>
+                <h3>HostListeners</h3>        <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="document:mousemove"></a>
+                                    <span class="name">
+                                        <b>
+                                        document:mousemove
+                                        </b>
+                                        <a href="#document:mousemove"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Arguments : </i><code>'$event' </code>
+                                    </td>
+                                </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>document:mousemove(event: MouseEvent | TouchEvent)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="354" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:354</a></div>
+                                        </td>
+                                    </tr>
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="document:mouseup"></a>
+                                    <span class="name">
+                                        <b>
+                                        document:mouseup
+                                        </b>
+                                        <a href="#document:mouseup"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>document:mouseup()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="348" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:348</a></div>
+                                        </td>
+                                    </tr>
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="mousedown"></a>
+                                    <span class="name">
+                                        <b>
+                                        mousedown
+                                        </b>
+                                        <a href="#mousedown"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Arguments : </i><code>'$event' </code>
+                                    </td>
+                                </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>mousedown(event: MouseEvent | TouchEvent)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="325" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:325</a></div>
+                                        </td>
+                                    </tr>
+            
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="methods">
+                        Methods
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="boundsCheck"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        boundsCheck
+                                        </b>
+                                        <a href="#boundsCheck"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>boundsCheck()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="213" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:213</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>{ &#x27;top&#x27;: boolean; &#x27;right&#x27;: boolean; &#x27;bottom&#x27;: boolean; &#x27;left&#x27;: boolean; }</code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="checkHandleTarget"></a>
+                                    <span class="name">
+                                        <b>
+                                        checkHandleTarget
+                                        </b>
+                                        <a href="#checkHandleTarget"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>checkHandleTarget(target: Element, element: Element)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="295" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:295</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>target</td>
+                                                              <td>
+                                                                      <code>Element</code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>element</td>
+                                                              <td>
+                                                                      <code>Element</code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="moveTo"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        moveTo
+                                        </b>
+                                        <a href="#moveTo"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>moveTo(p: <a href="../classes/Position.html">Position</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="164" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:164</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>p</td>
+                                                              <td>
+                                                                      <code><a href="../classes/Position.html" target="_self" >Position</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="ngOnChanges"></a>
+                                    <span class="name">
+                                        <b>
+                                        ngOnChanges
+                                        </b>
+                                        <a href="#ngOnChanges"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>ngOnChanges(changes: <a href="https://angular.io/api/core/SimpleChanges" target="_blank">SimpleChanges</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="136" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:136</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>changes</td>
+                                                              <td>
+                                                                      <code><a href="https://angular.io/api/core/SimpleChanges" target="_blank" >SimpleChanges</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="ngOnInit"></a>
+                                    <span class="name">
+                                        <b>
+                                        ngOnInit
+                                        </b>
+                                        <a href="#ngOnInit"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>ngOnInit()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="127" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:127</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="pickUp"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        pickUp
+                                        </b>
+                                        <a href="#pickUp"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>pickUp()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="195" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:195</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="putBack"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        putBack
+                                        </b>
+                                        <a href="#putBack"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>putBack()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="248" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:248</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="resetPosition"></a>
+                                    <span class="name">
+                                        <b>
+                                        resetPosition
+                                        </b>
+                                        <a href="#resetPosition"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>resetPosition()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="154" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:154</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="transform"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        transform
+                                        </b>
+                                        <a href="#transform"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>transform()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="181" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:181</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="inputs">
+                        Properties
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="_zIndex"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        _zIndex
+                                        </b>
+                                        <a href="#_zIndex"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>_zIndex:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:60</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="allowDrag"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        allowDrag
+                                        </b>
+                                        <a href="#allowDrag"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>allowDrag:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>true</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:53</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="moving"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        moving
+                                        </b>
+                                        <a href="#moving"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>moving:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>false</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:54</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="needTransform"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        needTransform
+                                        </b>
+                                        <a href="#needTransform"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>needTransform:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>false</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:61</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="oldPosition"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        oldPosition
+                                        </b>
+                                        <a href="#oldPosition"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>oldPosition:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:59</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="oldTrans"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        oldTrans
+                                        </b>
+                                        <a href="#oldTrans"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>oldTrans:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>new Position(0, 0)</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:56</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="oldZIndex"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        oldZIndex
+                                        </b>
+                                        <a href="#oldZIndex"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>oldZIndex:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:58</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="orignal"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        orignal
+                                        </b>
+                                        <a href="#orignal"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>orignal:     <code><a href="../classes/Position.html" target="_self" >Position</a></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Type : </i>    <code><a href="../classes/Position.html" target="_self" >Position</a></code>
+            
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>null</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:55</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="tempTrans"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        tempTrans
+                                        </b>
+                                        <a href="#tempTrans"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>tempTrans:     <code></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>new Position(0, 0)</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:57</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                <h3 id="accessors">
+                    Accessors
+                </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="zIndex"></a>
+                                    <span class="name"><b>zIndex</b><a href="#zIndex"><span class="fa fa-link"></span></a></span>
+                                </td>
+                            </tr>
+            
+            
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="accessor"><b>set</b><code>zIndex(setting: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code></span>
+                                </td>
+                            </tr>
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:85</a></div>
+                                            </td>
+                                        </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                            <div class="io-description"><p>Set z-index when not dragging </p>
+            </div>
+            
+                                            <div class="io-description">
+                                                    <b>Parameters :</b>
+                                                    <table class="params">
+                                                        <thead>
+                                                            <tr>
+                                                                <td>Name</td>
+                                                                <td>Type</td>
+                                                                <td>Optional</td>
+                                                                <td>Description</td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr>
+                                                                  <td>setting</td>
+                                                                  <td>
+                                                                          <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                                  </td>
+                                                                  <td>
+                                                                  </td>
+                                                                  <td></td>
+                                                                </tr>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
+                                            <div>
+                                            </div>
+                                            <div class="io-description">
+                                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                            </div>
+                                    </td>
+                                </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="ngDraggable"></a>
+                                    <span class="name"><b>ngDraggable</b><a href="#ngDraggable"><span class="fa fa-link"></span></a></span>
+                                </td>
+                            </tr>
+            
+            
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="accessor"><b>set</b><code>ngDraggable(setting: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code></span>
+                                </td>
+                            </tr>
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <div class="io-line">Defined in <a href="" data-line="111" class="link-to-prism">lib/src/directive/angular-draggable.directive.ts:111</a></div>
+                                            </td>
+                                        </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Directive, ElementRef, Renderer2, Input, Output, OnInit, HostListener, EventEmitter, OnChanges, SimpleChanges } from &#x27;@angular/core&#x27;;
+
+export interface IPosition {
+  x: number;
+  y: number;
+}
+
+class Position implements IPosition {
+  constructor(public x: number, public y: number) { }
+
+  static fromEvent(e: MouseEvent | TouchEvent) {
+    if (e instanceof MouseEvent) {
+      return new Position(e.clientX, e.clientY);
+    } else {
+      return new Position(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+    }
+  }
+
+  static isIPosition(obj): obj is IPosition {
+    return !!obj &amp;&amp; (&#x27;x&#x27; in obj) &amp;&amp; (&#x27;y&#x27; in obj);
+  }
+
+  add(p: IPosition) {
+    this.x +&#x3D; p.x;
+    this.y +&#x3D; p.y;
+    return this;
+  }
+
+  subtract(p: IPosition) {
+    this.x -&#x3D; p.x;
+    this.y -&#x3D; p.y;
+    return this;
+  }
+
+  reset() {
+    this.x &#x3D; 0;
+    this.y &#x3D; 0;
+    return this;
+  }
+
+  set(p: IPosition) {
+    this.x &#x3D; p.x;
+    this.y &#x3D; p.y;
+    return this;
+  }
+}
+
+@Directive({
+  selector: &#x27;[ngDraggable]&#x27;,
+  exportAs: &#x27;ngDraggable&#x27;
+})
+export class AngularDraggableDirective implements OnInit, OnChanges {
+  private allowDrag &#x3D; true;
+  private moving &#x3D; false;
+  private orignal: Position &#x3D; null;
+  private oldTrans &#x3D; new Position(0, 0);
+  private tempTrans &#x3D; new Position(0, 0);
+  private oldZIndex &#x3D; &#x27;&#x27;;
+  private oldPosition &#x3D; &#x27;&#x27;;
+  private _zIndex &#x3D; &#x27;&#x27;;
+  private needTransform &#x3D; false;
+
+  @Output() started &#x3D; new EventEmitter&lt;any&gt;();
+  @Output() stopped &#x3D; new EventEmitter&lt;any&gt;();
+  @Output() edge &#x3D; new EventEmitter&lt;any&gt;();
+
+  /** Make the handle HTMLElement draggable */
+  @Input() handle: HTMLElement;
+
+  /** Set the bounds HTMLElement */
+  @Input() bounds: HTMLElement;
+
+  /** List of allowed out of bounds edges **/
+  @Input() outOfBounds &#x3D; {
+    top: false,
+    right: false,
+    bottom: false,
+    left: false
+  };
+
+  /** Set z-index when dragging */
+  @Input() zIndexMoving: string;
+
+  /** Set z-index when not dragging */
+  @Input() set zIndex(setting: string) {
+    this.renderer.setStyle(this.el.nativeElement, &#x27;z-index&#x27;, setting);
+    this._zIndex &#x3D; setting;
+  }
+  /** Whether to limit the element stay in the bounds */
+  @Input() inBounds &#x3D; false;
+
+  /** Whether the element should use it&#x27;s previous drag position on a new drag event. */
+  @Input() trackPosition &#x3D; true;
+
+  /** Input css scale transform of element so translations are correct */
+  @Input() scale &#x3D; 1;
+
+  /** Whether to prevent default event */
+  @Input() preventDefaultEvent &#x3D; false;
+
+  /** Set initial position by offsets */
+  @Input() position: IPosition &#x3D; { x: 0, y: 0 };
+
+  /** Emit position offsets when moving */
+  @Output() movingOffset &#x3D; new EventEmitter&lt;IPosition&gt;();
+
+  /** Emit position offsets when put back */
+  @Output() endOffset &#x3D; new EventEmitter&lt;IPosition&gt;();
+
+  @Input()
+  set ngDraggable(setting: any) {
+    if (setting !&#x3D;&#x3D; undefined &amp;&amp; setting !&#x3D;&#x3D; null &amp;&amp; setting !&#x3D;&#x3D; &#x27;&#x27;) {
+      this.allowDrag &#x3D; !!setting;
+
+      let element &#x3D; this.handle ? this.handle : this.el.nativeElement;
+
+      if (this.allowDrag) {
+        this.renderer.addClass(element, &#x27;ng-draggable&#x27;);
+      } else {
+        this.renderer.removeClass(element, &#x27;ng-draggable&#x27;);
+      }
+    }
+  }
+
+  constructor(private el: ElementRef, private renderer: Renderer2) { }
+
+  ngOnInit() {
+    if (this.allowDrag) {
+      let element &#x3D; this.handle ? this.handle : this.el.nativeElement;
+      this.renderer.addClass(element, &#x27;ng-draggable&#x27;);
+    }
+
+    this.resetPosition();
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes[&#x27;position&#x27;] &amp;&amp; !changes[&#x27;position&#x27;].isFirstChange()) {
+      let p &#x3D; changes[&#x27;position&#x27;].currentValue;
+
+      if (!this.moving) {
+        if (Position.isIPosition(p)) {
+          this.oldTrans.set(p);
+        } else {
+          this.oldTrans.reset();
+        }
+
+        this.transform();
+      } else {
+        this.needTransform &#x3D; true;
+      }
+    }
+  }
+
+  resetPosition() {
+    if (Position.isIPosition(this.position)) {
+      this.oldTrans.set(this.position);
+    } else {
+      this.oldTrans.reset();
+    }
+    this.tempTrans.reset();
+    this.transform();
+  }
+
+  private moveTo(p: Position) {
+    if (this.orignal) {
+      p.subtract(this.orignal);
+      this.tempTrans.set(p);
+      this.transform();
+
+      if (this.bounds) {
+        this.edge.emit(this.boundsCheck());
+      }
+
+      this.movingOffset.emit({
+        x: this.tempTrans.x + this.oldTrans.x,
+        y: this.tempTrans.y + this.oldTrans.y
+      });
+    }
+  }
+
+  private transform() {
+    let value &#x3D; &#x60;translate(${this.tempTrans.x + this.oldTrans.x}px, ${this.tempTrans.y + this.oldTrans.y}px)&#x60;;
+
+    if (this.scale !&#x3D;&#x3D; 1) {
+      value +&#x3D; &#x60; scale(${this.scale})&#x60;;
+    }
+
+    this.renderer.setStyle(this.el.nativeElement, &#x27;transform&#x27;, value);
+    this.renderer.setStyle(this.el.nativeElement, &#x27;-webkit-transform&#x27;, value);
+    this.renderer.setStyle(this.el.nativeElement, &#x27;-ms-transform&#x27;, value);
+    this.renderer.setStyle(this.el.nativeElement, &#x27;-moz-transform&#x27;, value);
+    this.renderer.setStyle(this.el.nativeElement, &#x27;-o-transform&#x27;, value);
+  }
+
+  private pickUp() {
+    // get old z-index:
+    this.oldZIndex &#x3D; this.el.nativeElement.style.zIndex ? this.el.nativeElement.style.zIndex : &#x27;&#x27;;
+
+    if (window) {
+      this.oldZIndex &#x3D; window.getComputedStyle(this.el.nativeElement, null).getPropertyValue(&#x27;z-index&#x27;);
+    }
+
+    if (this.zIndexMoving) {
+      this.renderer.setStyle(this.el.nativeElement, &#x27;z-index&#x27;, this.zIndexMoving);
+    }
+
+    if (!this.moving) {
+      this.started.emit(this.el.nativeElement);
+      this.moving &#x3D; true;
+    }
+  }
+
+  private boundsCheck() {
+    if (this.bounds) {
+      let boundary &#x3D; this.bounds.getBoundingClientRect();
+      let elem &#x3D; this.el.nativeElement.getBoundingClientRect();
+      let result &#x3D; {
+        &#x27;top&#x27;: this.outOfBounds.top ? true : boundary.top &lt; elem.top,
+        &#x27;right&#x27;: this.outOfBounds.right ? true : boundary.right &gt; elem.right,
+        &#x27;bottom&#x27;: this.outOfBounds.bottom ? true : boundary.bottom &gt; elem.bottom,
+        &#x27;left&#x27;: this.outOfBounds.left ? true : boundary.left &lt; elem.left
+      };
+
+      if (this.inBounds) {
+        if (!result.top) {
+          this.tempTrans.y -&#x3D; elem.top - boundary.top;
+        }
+
+        if (!result.bottom) {
+          this.tempTrans.y -&#x3D; elem.bottom - boundary.bottom;
+        }
+
+        if (!result.right) {
+          this.tempTrans.x -&#x3D; elem.right - boundary.right;
+        }
+
+        if (!result.left) {
+          this.tempTrans.x -&#x3D; elem.left - boundary.left;
+        }
+
+        this.transform();
+      }
+
+      return result;
+    }
+  }
+
+  private putBack() {
+    if (this._zIndex) {
+      this.renderer.setStyle(this.el.nativeElement, &#x27;z-index&#x27;, this._zIndex);
+    } else if (this.zIndexMoving) {
+      if (this.oldZIndex) {
+        this.renderer.setStyle(this.el.nativeElement, &#x27;z-index&#x27;, this.oldZIndex);
+      } else {
+        this.el.nativeElement.style.removeProperty(&#x27;z-index&#x27;);
+      }
+    }
+
+    if (this.moving) {
+      this.stopped.emit(this.el.nativeElement);
+
+      if (this.needTransform) {
+        if (Position.isIPosition(this.position)) {
+          this.oldTrans.set(this.position);
+        } else {
+          this.oldTrans.reset();
+        }
+
+        this.transform();
+        this.needTransform &#x3D; false;
+      }
+
+      if (this.bounds) {
+        this.edge.emit(this.boundsCheck());
+      }
+
+      this.moving &#x3D; false;
+      this.endOffset.emit({
+        x: this.tempTrans.x + this.oldTrans.x,
+        y: this.tempTrans.y + this.oldTrans.y
+      });
+
+      if (this.trackPosition) {
+        this.oldTrans.add(this.tempTrans);
+      }
+
+      this.tempTrans.reset();
+
+      if (!this.trackPosition) {
+        this.transform();
+      }
+    }
+  }
+
+  checkHandleTarget(target: Element, element: Element) {
+    // Checks if the target is the element clicked, then checks each child element of element as well
+    // Ignores button clicks
+
+    // Ignore elements of type button
+    if (element.tagName &#x3D;&#x3D;&#x3D; &#x27;BUTTON&#x27;) {
+      return false;
+    }
+
+    // If the target was found, return true (handle was found)
+    if (element &#x3D;&#x3D;&#x3D; target) {
+      return true;
+    }
+
+    // Recursively iterate this elements children
+    for (let child in element.children) {
+      if (element.children.hasOwnProperty(child)) {
+        if (this.checkHandleTarget(target, element.children[child])) {
+          return true;
+        }
+      }
+    }
+
+    // Handle was not found in this lineage
+    // Note: return false is ignore unless it is the parent element
+    return false;
+  }
+
+  @HostListener(&#x27;mousedown&#x27;, [&#x27;$event&#x27;])
+  @HostListener(&#x27;touchstart&#x27;, [&#x27;$event&#x27;])
+  onMouseDown(event: MouseEvent | TouchEvent) {
+    // 1. skip right click;
+    if (event instanceof MouseEvent &amp;&amp; event.button &#x3D;&#x3D;&#x3D; 2) {
+      return;
+    }
+    // 2. if handle is set, the element can only be moved by handle
+    if (this.handle !&#x3D;&#x3D; undefined &amp;&amp; !this.checkHandleTarget(event.srcElement, this.handle)) {
+      return;
+    }
+
+    if (this.preventDefaultEvent) {
+      event.stopPropagation();
+      event.preventDefault();
+    }
+
+    this.orignal &#x3D; Position.fromEvent(event);
+    this.pickUp();
+  }
+
+  @HostListener(&#x27;document:mouseup&#x27;)
+  @HostListener(&#x27;document:mouseleave&#x27;)
+  @HostListener(&#x27;document:touchend&#x27;)
+  @HostListener(&#x27;document:touchcancel&#x27;)
+  onMouseLeave() {
+    this.putBack();
+  }
+
+  @HostListener(&#x27;document:mousemove&#x27;, [&#x27;$event&#x27;])
+  @HostListener(&#x27;document:touchmove&#x27;, [&#x27;$event&#x27;])
+  onMouseMove(event: MouseEvent | TouchEvent) {
+    if (this.moving &amp;&amp; this.allowDrag) {
+      if (this.preventDefaultEvent) {
+        event.stopPropagation();
+        event.preventDefault();
+      }
+
+      this.moveTo(Position.fromEvent(event));
+    }
+  }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>
